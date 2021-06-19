@@ -1,0 +1,38 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    
+}
+.editimg{
+    width: 100%;
+    height: 370px;
+    
+}
+.picContent{
+    width: 100%;
+    height: 100%;
+    border-radius:2px;
+    transform: scale(1);
+    transition: all linear 2s; 
+}
+ .picContent:hover{
+    transform: scale(1.1);
+    transition: all linear 2s;
+}
+.ct1{
+    color: black; 
+    text-decoration: none;
+}
+.editbutton{
+    border-radius: 5px;
+    background-color: black;
+}
+#div2{
+    width: 50%;
+    float: right;
+}
+#div1{
+    width: 50%;
+    float: left;
+}

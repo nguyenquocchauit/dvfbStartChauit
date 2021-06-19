@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="css/thi.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/thi.js"></script>
+    <title>Dịch Vụ Facebook StarChauit</title>
+</head>
+<body>
+    
+    <!--Logo menu-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top " >
+        <div id="#div1">
+            <nav class="navbar navbar-expand-lg  d-flex  p-1">
+                <img  src="media/iconfb.jpg" alt="#" style="width: 50px; height: 45px; border-radius: 100%;"> 
+                <a href="https://www.facebook.com/NguyenQuocChau.NhaTrang" style="text-decoration: none; color: red">
+                    <h4>DVFB StarChauit</h4>
+                </a>
+            </nav>
+        </div>
+        <div class="navbar-toggler  border-0 p-0" id="#div2">
+            <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse" data-bs-target="#menuchinh" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse justify-content-end text-end" id="menuchinh">
+            <ul class="navbar-nav  mb-2 p-1">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dịch Vụ
+                    </a>
+                    <ul class="dropdown-menu justify-content-end text-end" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Tăng Like</a></li>
+                      <li><a class="dropdown-item" href="#">Tăng Follow</a></li>
+                      <li><a class="dropdown-item" href="#">Mở Khóa Facebook</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="https://www.facebook.com/NguyenQuocChau.NhaTrang" style="text-decoration: none;">Liên Hệ ADMIN Tại đây</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Chat</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Trang Chủ</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--banner-->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <img class="editimg"  src="media/bannerStarChauit.gif" alt="#" >
+            </div>
+       </div>
+    </div>
+
+    <!--Search Sign-up-->
+    
+    <nav class="navbar navbar-expand-md navbar-light bg-light" >
+        <div class="navbar-toggler border-0 p-0" >
+            <button class="navbar-toggler float-start" type="button" data-bs-toggle="collapse" data-bs-target="#menuphu" 
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse justify-content-end text-right "  id="menuphu">
+            <div class=" justify-content-end text-right ">
+                <ul class="navbar-nav  mb-2 mb-lg-0">
+                    <li>
+                        <form class="d-flex p-2 w-100">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-primary" type="submit">Search</button>
+                          </form>
+                    </li>
+                    <li class="nav-item mt-1" id="change">
+                        <a onclick="Modal_LogIn()" class="nav-link" href="#">
+                            <span class="fas fa-sign-in-alt mr-1"></span>Đăng nhập
+                        </a>
+                    </li>
+                </ul>
+              </div>
+        </div>
+    </nav>
+    <!--Content & Pic -->
+    
+    <div class="container-fluid ">
+        <div class="row" style="padding: 10px;">
+          <div id="CarouselPic" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button  type="button" data-bs-target="#CarouselPic" data-bs-slide-to="0" class="active editbutton" aria-current="true" aria-label="Slide 1"></button>
+              <button  type="button" data-bs-target="#CarouselPic" data-bs-slide-to="1" aria-label="Slide 2" class=" editbutton"></button>
+              <button  type="button" data-bs-target="#CarouselPic" data-bs-slide-to="2" aria-label="Slide 3" class=" editbutton"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="col-lg-8 col-12" style="float: left;">
+                    <img src="media/demo1.jpg" class="d-block w-100" alt="#" id="Pic">
+                  </div>
+                <div class="col-lg-4 col-12  mt-5 p-2" style="float: right;">
+                  <h4>Thông tin liên hệ ADMIN</h4>
+                  <p>
+                    Hotline: 0386.818.829<br>
+                    Zalo: 0926.383.006<br>
+                    Email: Chauquocnguyen.cun1@gmail.com<br>
+                    Contact Facebook: <a class="ct1" href="https://www.facebook.com/NguyenQuocChau.NhaTrang">Nguyễn Quốc Châu</a>
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-lg-8 col-12" style="float: left;">
+                    <img src="media/demo2.jpg" class="d-block w-100" alt="#" id="Pic">
+                </div>
+                <div class="col-lg-4 col-12 mt-5 p-2" style="float: right;">
+                  <h4>Hỗ trợ các vấn đề về Facebook 2021</h4>
+                  <p>
+                    Hiện nay tình trạng Facebook cập nhật thuật toán liên tục. Vì thế các dịch vụ Facebook sẽ thay đổi cách thức làm , và vấn đề quan 
+                    trọng nhất hiện nay vẫn là Mở Khóa , Bảo Mật Facebook đang là vấn đề được ưu tiên nhất . Hãy tham gia Website của chúng tôi để được
+                    tham khảo các cách giải quyết vấn đề về Facebook.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-lg-8 col-12" style="float: left;">
+                    <img src="media/demo3.jpg" class="d-block w-100" alt="#" id="Pic">
+                </div>
+                <div class="col-lg-4 col-12 mt-5 p-2" style="float: right;">
+                  <h4>Hỗ trợ các vấn đề về Facebook 2021</h4>
+                  <p>
+                    Hiện nay tình trạng Facebook cập nhật thuật toán liên tục. Vì thế các dịch vụ Facebook sẽ thay đổi cách thức làm , và vấn đề quan 
+                    trọng nhất hiện nay vẫn là Mở Khóa , Bảo Mật Facebook đang là vấn đề được ưu tiên nhất . Hãy tham gia Website của chúng tôi để được
+                    tham khảo các cách giải quyết vấn đề về Facebook.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev "  type="button" data-bs-target="#CarouselPic" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon " aria-hidden="true" style="background-image: url(media/back.png);"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#CarouselPic" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true" style="background-image: url(media/next.png);"></span>
+            </button>
+          </div>
+        </div>
+    </div>
+
+    <!--Content slide -->
+    <div class="container mt-2" >
+        <div class="row justify-content-center" >
+          <div class="col-6 col-lg-4 order-md-1 ">
+              <div class="text-center">
+                  <div class="w-100 m">
+                      <img class="d-block  mx-auto picContent" src="media/tanglike.jpg" alt="#" >
+                  </div>
+                  <div class="w-100 mt-2">
+                      <p>Khi dùng Facebook chắc hẳn các bạn đã từng nghe đến hack like FB bao...
+                      </p>
+                      <h5>Cách Hack Like Facebook</h5>
+                  </div>
+              </div>
+          </div>
+          <div class="col-6 col-lg-4 order-md-2">
+              <div class="text-center">
+                  <div class="w-100">
+                      <img class="d-block  mx-auto picContent" src="media/link333.jpg" alt="#" >
+                  </div>
+                  <div class="w-100 mt-2">
+                      <p>Link 333 là gì? Link 333 là trang contact liên hệ với Facebook dùng để...
+                      </p>
+                      <h5>Link 333 – Đổi tên Facebook chưa đủ 60 ngày</h5>
+                      
+                  </div>
+              </div>
+          </div>
+          <div class="col-8 col-lg-4 order-md-3">
+              <div class="text-center">
+                  <div class="w-100">
+                      <img class="d-block  mx-auto picContent" src="media/link339.jpg" alt="#" >
+                  </div>
+                  <div class="w-100 mt-2 ">
+                      <p>Link 339 là gì? Link 339 là đường link để truy cập vào trang liên...
+                      </p>
+                      <h5>Link 339 – Xác minh danh tính với Facebook</h5>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Footer-->
+      <div class="container-fluid ">
+        <div class="row  "style="background-color: rgb(217, 231, 250);"> 
+          <div class="col-12 col-lg-6 mt-4 ">
+            <div >
+              <h5 class="">DVFBSTARCHAUIT.COM</h5><Br>
+              Dịch Vụ Facebook StarChauit đã có 7 năm hoạt động trong lĩnh vực Online Maketing, nắm bắt được sự thay đổi 
+              và định hứng được sự phát triển của thị trường, Dịch Vụ Facebook StarChauit là trang hỗ trợ người dùng những thông tin 
+              và kiến thức cơ bản về nền tảng xã hội Facebook.
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 mt-4 ">
+            <div >
+              <h5 >VỀ CÔNG TY</h5><br>
+              <ul class="list-unstyled" >
+                <li ><a href="#" class="ct1">Giới thiệu</a></li>
+                <li ><a href="#" class="ct1">Điều khoản sử dụng</a></li>
+                <li ><a href="#" class="ct1">Chính sách bảo mật</a></li>
+                <li ><a href="#" class="ct1">Liên hệ làm đại lý</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 mt-4">
+            <div >
+              <h5>ĐỊA CHỈ</h5><br>
+              <b> Nha Trang, Khánh Hòa</b> <br> <b>Hotline</b>: 0386.81.8829
+            </div>
+          </div>
+          <div class="col-12 ">
+            <div class="d-flex justify-content-center" style="font-size: 18px;">
+              Bản quyền | 2014 © <a href="#" class="ct1">Dịch Vụ Facebook StarChauit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+     <!-- Modal -->
+  <!-- Modal-Login -->
+  
+  <div class="modal fade text-center" id="myModal_LogIn" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header mx-auto">
+          <h5 class="modal-title" id="staticBackdropLabel">Đăng Nhập</h5>
+        </div>
+        <div class="modal-body">
+          <form class="form">
+            <div >
+              <label class="form-label float-start"><h5>Tên đăng nhập</h5></label>
+              <input class="w-100 form-control" type="text" placeholder="Tên đăng nhập" id="inputusername">
+            </div>
+            <div >
+              <label class="form-label float-start" style="padding-top: 10px;"><h5>Mật khẩu</h5></label>
+              <input class="w-100 form-control" type="password"  placeholder="Mật khẩu" id="password"> 
+            </div>
+            <div  class="d-flex justify-content-end text-right">
+              <a href="#" style="text-decoration: none;" data-bs-target="#myModal_Forgotten_password" data-bs-toggle="modal" data-bs-dismiss="modal">Quên mật khẩu?</a>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <div onclick="check()"  class="btn btn-primary btn-block mt-3 w-100" >Đăng Nhập</div>
+          <p>Chưa có tài khoản? <a href="#" style="text-decoration: none;" data-bs-target="#myModal_SignUp" data-bs-toggle="modal" data-bs-dismiss="modal">Đăng Ký Ngay</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal-SignUp -->
+
+  <div class="modal fade" id="myModal_SignUp" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header mx-auto">
+          <h5 class="modal-title" id="staticBackdropLabel">Đăng Ký</h5>
+        </div>
+        <div class="modal-body">
+          <form class="form">
+            <div>
+              <label class="form-label"><h5>Họ và tên</h5></label>
+              <input class="w-100 form-control" type="text" placeholder="Họ và tên">
+            </div>
+            <div>
+              <label class="form-label" style="padding-top: 10px;"><h5>Số di động hoặc Email</h5></label>
+              <input class="w-100 form-control" type="text" placeholder="Số di động hoặc Email">
+            </div>
+            <div>
+              <label class="form-label" style="padding-top: 10px;"><h5>Tên đăng nhập</h5></label>
+              <input class="w-100 form-control" type="text" placeholder="Tên đăng nhập">
+            </div>
+            <div >
+              <label class="form-label" style="padding-top: 10px;"><h5>Mật khẩu</h5></label>
+              <input class="w-100 form-control" type="password" id="pass_signup" placeholder="Mật khẩu"> 
+              
+            </div>
+            <div >
+              <label class="form-label" style="padding-top: 10px;"><h5>Nhập lại mật khẩu</h5></label>
+              <input class="w-100 form-control" type="password" id="re_pass_signup" placeholder="Nhập lại mật khẩu">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <a href="#"  class="btn btn-primary btn-block mt-3 w-100">Đăng Ký</a>
+          <p>Đã có tài khoản? <a href="#" style="text-decoration: none;" data-bs-target="#myModal_LogIn" data-bs-toggle="modal" data-bs-dismiss="modal">Đăng Nhập Ngay</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal-Forgotten-password -->
+  
+  <div class="modal fade" id="myModal_Forgotten_password" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header mx-auto">
+          <h5 class="modal-title" id="staticBackdropLabel">Khôi phục mật khẩu</h5>
+        </div>
+        <div class="modal-body">
+          <form class="form">
+            <div>
+              <label class="form-label"><h5>Tên đăng nhập</h5></label>
+              <input class="w-100 form-control" type="text" placeholder="Tên đăng nhập">
+            </div>
+            <div>
+              <label class="form-label" style="padding-top: 10px;"><h5>Số di động hoặc Email</h5></label>
+              <input class="w-100 form-control" type="text" placeholder="Số di động hoặc Email">
+            </div>
+            <div>
+              Liên hệ Admin  <a href="https://www.facebook.com/NguyenQuocChau.NhaTrang" style="text-decoration: none;">Tại đây</a>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <p>Đã có tài khoản? <a href="#" style="text-decoration: none;" data-bs-target="#myModal_LogIn" data-bs-toggle="modal" data-bs-dismiss="modal">Đăng Nhập Ngay</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
